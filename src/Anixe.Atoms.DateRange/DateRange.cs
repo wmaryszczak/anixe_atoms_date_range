@@ -4,6 +4,8 @@ namespace Anixe.Atoms
 {
   public struct DateRange
   {
+    public readonly static DateRange Empty = new DateRange();
+
     public readonly DateTime From;
     public readonly DateTime To;
 

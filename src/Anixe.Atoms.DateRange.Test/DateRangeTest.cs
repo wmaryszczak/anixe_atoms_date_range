@@ -38,6 +38,13 @@ namespace Anixe.Atoms.Test
       var inputRange = DateRangeExtensions.FromString(input);
       Assert.Equal(expected, dr.Includes(inputRange));
     }
+
+    [Fact]
+    public void Undefined_DateRange_Should_Be_Empty()
+    {
+      var dr = new DateRange();
+      Assert.Equal(DateRange.Empty, dr);
+    }
     
   }
 }

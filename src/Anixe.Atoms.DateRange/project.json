@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "name": "Anixe.Atoms.DateRange",
   "title": "Struct with date range implementation",
   "authors": ["wm"],
