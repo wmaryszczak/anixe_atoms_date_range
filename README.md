@@ -11,7 +11,7 @@ Assert.False(dr.Includes(new DateTime(2016,11,14)));
 
 
 var dr = DateRange.FromString("20171113:20171110");
-Assert.Equals(new DateTime(2016,11,10), dr.From);
-Assert.Equals(new DateTime(2016,11,13), dr.To);
+Assert.Equal(new DateTime(2016,11,10), dr.From);
+Assert.Equal(new DateTime(2016,11,13), dr.To);
 
 ```
