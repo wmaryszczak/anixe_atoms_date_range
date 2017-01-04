@@ -4,7 +4,7 @@
   "title": "Struct with date range implementation",
   "authors": ["wm"],
   "owners": ["wm"],
-  "projectUrl": "https://github.com/wmaryszczak/date_range",
+  "projectUrl": "https://github.com/wmaryszczak/anixe_atoms_date_range",
   "tags": ["anixe", "date range"],
   "buildOptions": {
     "debugType": "portable"
